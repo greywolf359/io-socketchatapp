@@ -13,8 +13,8 @@ Trouble spot 1 - getting babel to read jsx
 -Trouble spot 2: getting react-router 4 to work:
 - solution was to put the routes into the component you want them to render in
 
-Trouble spot 3:  getting the path to go to the appropriaate component when typed into the url locator 
-- solution was to use hashHistory but i dont know if that is proper. 
+Trouble spot 3:  getting the path to go to the appropriate component when typed into the url locator 
+- solution was to use browserHistory but i dont know if that is proper. 
 
 Trouble spot 4: remembering how to setState in an ES6 syntax component
 - solution this.setState = {messages: []} and NOT this.state.message = []
