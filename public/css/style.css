@@ -1,0 +1,39 @@
+.vertical-center{
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.form-group-top{
+	margin-top: 5px;
+}
+
+.container-width{
+	width:50%;
+}
+
+.fixed-height{
+	height: 300px;
+}
+
+.overflow{
+	overflow: scroll;
+}
+
+.list-group-item{
+	padding: 5px 25px;
+}
+
+.btn{
+	display: inline-block;
+}
+
+.btn-margin-left{
+	margin-left: 5px;
+}
+
+.form-control-width-modified{
+	width: 75% !important;
+	display: inline-block;
+}
