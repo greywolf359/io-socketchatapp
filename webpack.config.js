@@ -24,13 +24,14 @@ module.exports = {
 		extensions: [".js", ".jsx", ".json", ".css"]
 	},
 
-	
+	/*
 	devServer:{
 		contentBase: path.join(__dirname, '/public'),
 		compress: true,
 		port: 3000,
 		historyApiFallback: true
 	},
+	*/
 	
 	devtool: 'source-map',
 
