@@ -9,7 +9,7 @@ export default class Main extends Component{
 		return(
 			<div>
 				<Route exact path = '/' component = {Home}/>
-				<Route path = '/chat' component = {Chat}/>
+				<Route path = '/chat/:name' component = {Chat}/>
 				
 			</div>
 		)

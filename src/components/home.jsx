@@ -1,8 +1,19 @@
 import React, {Component} from 'react';
 
 
-export default class Home extends Component{
+class Home extends Component{
+	
+
+	constructor(){
+		this.handleSubmit = this.handleSubmit.bind(this);
+	}
+
+	handleSubmit(){
+		this.context.router.transitionTo('/chat');
+	}
+
 	render(){
+		
 		return(
 			<div className = "vertical-center">
 				<div className = "container">
@@ -11,7 +22,7 @@ export default class Home extends Component{
 							<h2 className = "text-center">ChatSpace</h2>
 							<h4 className = "text-center">Enter a Username:</h4>
 								<div className = "form-group">
-								<form action = "/chat">
+								<form action = {this.handleSubmit}>
 
 								<label htmlFor = "name">Alias:</label>
 								<div className = "input-group">
@@ -36,3 +47,9 @@ export default class Home extends Component{
 		)
 	}
 }
+
+Home.contextTypes = {
+	router: React.PropTypes.object
+}
+
+export default Home;
