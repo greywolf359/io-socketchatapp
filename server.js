@@ -3,7 +3,7 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 const moment = require('moment');
-const PORT  = process.env.PORT || 4000;
+const PORT  = process.env.PORT || 5000;
 
 app.use(express.static(__dirname + '/public'));
 
