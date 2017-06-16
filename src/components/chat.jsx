@@ -6,7 +6,7 @@ import Input from './chatcomponents/input';
 import UserList from './chatcomponents/userlist';
 import moment from 'moment';
 
-var socket = io.connect('https://pacific-waters-12446.herokuapp.com' + process.env.PORT);
+var socket = io();
 
 export default class Chat extends Component{
 
