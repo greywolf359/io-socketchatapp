@@ -3,10 +3,11 @@ import React, {Component} from 'react';
 
 class Home extends Component{
 	
-
+	/*
 	constructor(){
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
+	*/
 
 	handleSubmit(){
 		this.context.router.transitionTo('/chat');
